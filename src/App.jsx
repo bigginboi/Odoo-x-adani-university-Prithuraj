@@ -15,7 +15,7 @@ export default function App() {
     const [aiOpen, setAiOpen] = useState(false);
     const [input, setInput] = useState("");
     const [chat, setChat] = useState([
-        {r:'ai', t:'GearGuard AI (Project: 1033485455698) is active. How can I help with your fleet?'}
+        {r:'ai', t:'GearGuard AI is active. How can I help with your fleet?'}
     ]);
 
     const loadData = async () => {
